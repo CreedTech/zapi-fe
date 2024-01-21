@@ -1,0 +1,387 @@
+.set-col {
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #fff;
+  min-width: 200vh;
+}
+.text-col{
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: 24px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  font-weight: 600;
+  display: block;
+  box-sizing: border-box;
+  outline: none 0px;
+}
+.col-col{
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 20px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  outline: none 0px;
+}
+.icon2 {
+  padding: 5px;
+  margin-top: 8px;
+  
+}
+.col-4{
+  margin-bottom: 12px;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 20px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+    display: block;
+    box-sizing: border-box;
+    outline: none 0px;
+}
+
+.mx-2 {
+  cursor: pointer;
+  
+  margin: 0px;
+    
+}
+.select-box{
+  margin-top: 40px;
+  height: 30px;
+  width: 20%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 13px;
+  color: #333;
+  opacity: 6;
+  border: 1.5px solid #c7bebe;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.form-outer{
+  margin: 10px 0px 10px 0px;
+  margin-top: 20px;
+  width: 150%;
+}
+.select-inputs{
+  border-color: rgb(214, 217, 219);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  position: absolute;
+  transition: opacity 0.2s ease 0s, border-color 0.2s ease 0s;
+  z-index: 1;
+  
+  width: 180px;
+  height: 30px;
+}
+.form {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+  margin-top: 20px;    
+}
+.col-1{
+  margin-bottom: 4px;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+}
+.name-1{
+  font-size: 13px;
+  padding-left: 5px;
+  padding-top: 7px;
+}
+
+#input-input{
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 15%;
+  outline: none;
+  padding: 0 22px;
+  font-size: 10px;
+  color: #333;
+  border: 1.5px solid #c7bebe;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+}
+
+.none-name{
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 15%;
+  outline: none;
+  padding: 0 22px;
+  background-color: red;
+  font-size: 10px;
+  color: #333;
+  border: 1.5px solid #c7bebe;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.name-handler, label {
+  cursor: pointer;
+  margin-bottom: 4px;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+.input-input:focus, 
+  .input-input:valid {
+    border-color: #4070f4;
+  
+  }
+  .icon {
+    margin-top: 8px;
+    position: absolute;
+    left: 7px;
+    top: 0;
+    font-size: 20px;
+    width: 10px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+.users{
+  margin: 10px;
+
+}
+
+#gender{
+  cursor: pointer;
+}
+.button-1{
+  margin-top: 20px;
+  padding: 0px 15px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  appearance: none;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color-scheme: light;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: normal;
+  height: 36px;
+  outline: none 0px;
+  position: relative;
+  line-height: 20px;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  vertical-align: middle;
+  background-color: rgb(235, 76, 76);
+  border-color: rgb(235, 76, 76);
+  color: rgba(255, 255, 255, 0.87);
+  opacity: 0.2;
+}
+.name-col{
+  margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 24px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+    font-weight: 600;
+    display: block;
+    box-sizing: border-box;
+    outline: none 0px;
+}
+.more-text{
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 20px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  outline: none 0px;
+}
+
+.name-pro{
+  padding-top: 40px;
+  outline: none;
+}
+
+.input-box.button{
+  background-color: rgb(240, 181, 181);
+  color: #fff;
+  padding: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+
+button{
+  margin: 0px;
+  padding: 0px 12px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  appearance: none;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color-scheme: light;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: normal;
+  height: 36px;
+  outline: none 0px;
+  position: relative;
+  line-height: 20px;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  vertical-align: middle;
+  background-color: rgb(235, 76, 76);
+  border-color: rgb(235, 76, 76);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.doc{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: 24px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  font-weight: 600;
+  display: block;
+  box-sizing: border-box;
+  outline: none 0px;
+}
+.sue-del{
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 12px;
+  letter-spacing: normal;
+  line-height: 20px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  outline: none 0px;
+}
+.ul-num{
+  padding: 0px 45px;
+  font-size: 10px;
+
+}
+.del-main {
+padding: 15px 24px 0px;
+background-color: #ddd;
+width: 450px;
+height: 350px;
+justify-content: center;
+box-shadow: rgb(0 0 0 / 8%) 0px 1px 4px;
+box-sizing: border-box;
+border-radius: 10px;
+position: absolute;
+z-index: 2;
+top: 40%;
+left: 40%;
+transform: translate(-50%, -50%);
+  
+
+}
+.del-col {
+  padding: 16px 24px;
+    margin: 80px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 10vw;
+    height: 50%;
+    left: 50px;
+    display: block;
+    overflow: auto;
+    max-width: 600px;
+    min-width: 400px;
+    flex-direction: column;
+    border: none;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 1px 4px;
+    box-sizing: border-box;
+    animation: 0.35s cubic-bezier(0.4, 0, 1, 1) 0s 1 normal none running drop-fade;
+  
+}
+.paw-name{
+  margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 20px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+    display: block;
+    box-sizing: border-box;
+    outline: none 0px;
+}
+.spells{
+  margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0px;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 20px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+.spel-col{
+  border: none;
+  border-color: rgb(214, 217, 219);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  margin: auto;
+  position: relative;
+  transition: opacity 0.2s ease 0s, border-color 0.2s ease 0s;
+  z-index: 1;
+  inset: 0px;
+}
+.del-con1{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.xlm{
+  font-size: 13px;
+  margin: 10px 0px 0px 25px;
+  cursor: pointer;
+  
+}
+.buttons-1{
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 10px;
+  left: 240px;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  opacity: 0.2;
+}
