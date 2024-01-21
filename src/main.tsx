@@ -59,3 +59,17 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     </Router>
   </React.StrictMode>
 );
+
+
+
+// @channel Updated env variables
+
+// VITE_IDENTITY_URL='https://development.identity.zapi.ai/api/v1'
+// VITE_BASE_URL='https://development.core.zapi.ai/api/v1'
+// VITE_CORE_URL='https://development.core.zapi.ai/api/v1'
+// VITE_SOCKET_URL='https://development.notification.zapi.ai'
+// VITE_AI_URL='https://qnanswer-api.pk25mf6178910.eu-west-3.cs.amazonlightsail.com/q_and_a'
+// VITE_GOOGLE_CLIENT_ID='http://1053295469648-6k70pt4pl5b205ugmu09ru9dpo3ioqvf.apps.googleusercontent.com'
+// VITE_DEFAULT_CATEGORY_ID='92275577-46d6-43c4-bb15-dc2fb4bb56f9'
+// NODE_OPTIONS="--max-old-space-size=512"
+// VITE_ENV=dev
